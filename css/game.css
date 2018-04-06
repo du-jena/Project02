@@ -1,0 +1,42 @@
+.background    { background-image: url("https://orig00.deviantart.net/593d/f/2016/014/4/4/fundo_by_pukahuna-d9nxb51.gif");
+                 background-size: 1600px 475px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #217B83  ; }
+.wall          { background: url("http://superwalrusland.com/ohr/issue26/pa/brick4_b.jpg");   }
+
+.actor  { position: absolute;  }
+.coin   { background: #FFC300;}
+.player { background: #C70039;}
+.enemy  {background-image: url("https://2.bp.blogspot.com/-g8oFpWFQunU/WRVZk3uj31I/AAAAAAAAABA/AWIifrhVoUA-fQNei6Wh1Gkmzn-iyVHbgCLcB/s1600/Slime+(1).gif");
+          background-size: 20px 20px;}
+
+.fire { background-image: url("http://rs64.pbsrc.com/albums/h190/SocialRetard911/Googlepages/Miscellaneous/Elemental/Fire/Fire_Animated_Text_Divider.gif~c200");
+          background-size: 12px 12px;}
+.wings {background-image: url("https://vignette.wikia.nocookie.net/animaljam/images/8/8d/Pixel_wing_gif.gif/revision/latest?cb=20180104012754");
+        background-size: 12px 12px;}
+.ground {background-image: url("http://pixelartmaker.com/art/384d668556ef0fc.png");
+          background-size: 12px 12px;}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 650px;
+  position: relative;
+}
+
+.lost .player {
+  background: #5AC0E3;
+}
+.loste .player {
+  background: #4DE210;
+}
+.won .player {
+  box-shadow: -4px -7px 8px #FFC300, 4px -7px 8px #FFC300;
+}
+
+body {
+      background-color: #0B2354;
+}
